@@ -62,7 +62,7 @@ const NumberPlateDisplay: React.FC<NumberPlateDisplayProps> = ({ plateConfig }) 
             relative w-full h-full max-w-[300px] mx-auto
             border-4 border-gray-800 rounded-lg overflow-hidden
             flex items-center justify-center
-            transition-transform duration-300
+            transition-transform duration-500
             preserve-3d transform-style-preserve-3d
             ${isEV ? 'bg-green-500' : 'bg-white'}
           `}
