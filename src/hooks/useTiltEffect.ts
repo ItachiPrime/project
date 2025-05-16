@@ -16,7 +16,7 @@ const useTiltEffect = (elementRef: RefObject<HTMLElement>) => {
     let initialY = 0;
     let centerX = 0;
     let centerY = 0;
-    let tiltAmount = 15; // Max tilt in degrees
+    let tiltAmount = 30; // Max tilt in degrees
 
     // Setup for device orientation
     let gyroAvailable = false;
