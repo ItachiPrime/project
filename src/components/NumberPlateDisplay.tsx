@@ -51,8 +51,7 @@ const NumberPlateDisplay: React.FC<NumberPlateDisplayProps> = ({ plateConfig }) 
         className={`
           absolute inset-0 mx-auto 
           flex items-center justify-center
-          shadow-2xl
-          transition-all duration-500 ease-out
+          transition-all duration-200 ease-out
           ${isInitializing ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}
         `}
       >
@@ -69,8 +68,8 @@ const NumberPlateDisplay: React.FC<NumberPlateDisplayProps> = ({ plateConfig }) 
           `}
           style={{ 
             boxShadow: isEV 
-              ? '0 10px 25px -5px rgba(34, 197, 94, 0.4), 0 8px 10px -6px rgba(34, 197, 94, 0.3)'
-              : '0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.2)'
+              ? '0 20px 30px -5px rgba(34, 197, 94, 0.4), 0 8px 10px -6px rgba(34, 197, 94, 0.3)'
+              : '0 20px 30px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.2)'
           }}
         >
           {/* Blue country identifier (for UK-style plates) */}
